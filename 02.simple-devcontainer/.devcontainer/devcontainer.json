@@ -1,0 +1,13 @@
+{
+	"name": "Java 17 & Maven Dev Container",
+	"image": "mcr.microsoft.com/devcontainers/java:17",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/maven:2": {},
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1.6.3": {
+			
+		}
+	},
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	}
+}
