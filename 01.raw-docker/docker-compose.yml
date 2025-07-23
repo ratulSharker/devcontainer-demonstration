@@ -1,0 +1,9 @@
+services:
+  raw-docker-devcontainer:
+    build: .
+    volumes:
+      - .:/home/raw-docker-devcontainer
+    ports:
+      - "3000:3000"
+    working_dir: /home/raw-docker-devcontainer
+    container_name: raw-docker-devcontainer
